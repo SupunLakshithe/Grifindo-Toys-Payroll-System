@@ -38,6 +38,8 @@ A comprehensive payroll management system developed for Grifindo Toys using C# a
 
 Database Diagram:-
 - ![image](https://github.com/user-attachments/assets/1eeb9939-2be4-4ecb-b0af-bb2d31e125cb)
+- ![image](https://github.com/user-attachments/assets/69fd79a8-9900-43df-9f5f-e6571d5a6217)
+
 
 
 ## Technical Details
