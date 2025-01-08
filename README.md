@@ -30,6 +30,16 @@ A comprehensive payroll management system developed for Grifindo Toys using C# a
 - Cycle-based payroll processing
 - User authentication system
 
+## Screen Shots
+
+![image](https://github.com/user-attachments/assets/a339911f-e7e3-468d-a16b-f793f337d891)
+![image](https://github.com/user-attachments/assets/2472eded-6852-4f0a-b85f-635b2043f4ed)
+![image](https://github.com/user-attachments/assets/c26eda46-fc35-47b5-ac9e-d77f481a16e0)
+
+Database Diagram:-
+- ![image](https://github.com/user-attachments/assets/1eeb9939-2be4-4ecb-b0af-bb2d31e125cb)
+
+
 ## Technical Details
 
 ### Requirements
@@ -100,4 +110,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Supun Lakshithe - [slsomarathna47@gmail.com](mailto:slsomarathna47@gmail.com)
 
-Project Link: [https://github.com/SupunLakshithe/bus-seat-reservation-system](https://github.com/SupunLakshithe/bus-seat-reservation-system)
+Project Link: [https://github.com/SupunLakshithe/Grifindo-Toys-Payroll-System](https://github.com/SupunLakshithe/bus-seat-reservation-system)
