@@ -68,8 +68,9 @@ Data Source=LAPTOP-LENOVOI5\\SQLEXPRESS;Initial Catalog="Grifindo Toys";Integrat
 1. Clone the repository
 2. Open the solution in Visual Studio
 3. Restore NuGet packages if required
-4. Update the database connection string in `db.cs` to match your SQL Server instance
-5. Build and run the application
+4. Create the database using "Database Diagram" in the Screen Shots
+5. Update the database connection string in `db.cs` to match your SQL Server instance
+6. Build and run the application
 
 ## Usage
 
