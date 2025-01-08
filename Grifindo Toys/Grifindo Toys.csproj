@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BF5FCC59-C031-40AB-8244-0C967214996A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Grifindo_Toys</RootNamespace>
+    <AssemblyName>Grifindo Toys</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin Home.Designer.cs">
+      <DependentUpon>Admin Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="admin_ab_leav_o.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin_ab_leav_o.Designer.cs">
+      <DependentUpon>admin_ab_leav_o.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_employee.Designer.cs">
+      <DependentUpon>Admin_employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_setting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_setting.Designer.cs">
+      <DependentUpon>Admin_setting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="db.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="Employee_Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee_Home.Designer.cs">
+      <DependentUpon>Employee_Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grifindo_ToysDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Grifindo_ToysDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="jobs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jobs.Designer.cs">
+      <DependentUpon>jobs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Salary.cs" />
+    <Compile Include="Salary_interface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary_interface.Designer.cs">
+      <DependentUpon>Salary_interface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Admin Home.resx">
+      <DependentUpon>Admin Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin_ab_leav_o.resx">
+      <DependentUpon>admin_ab_leav_o.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_employee.resx">
+      <DependentUpon>Admin_employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_setting.resx">
+      <DependentUpon>Admin_setting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee_Home.resx">
+      <DependentUpon>Employee_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jobs.resx">
+      <DependentUpon>jobs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Salary_interface.resx">
+      <DependentUpon>Salary_interface.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Grifindo_ToysDataSet.xsc">
+      <DependentUpon>Grifindo_ToysDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Grifindo_ToysDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Grifindo_ToysDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Grifindo_ToysDataSet.xss">
+      <DependentUpon>Grifindo_ToysDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-haadi-souaid-16446.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\big_logo_to_edit-removebg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_to_edit-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\payroll.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings-icon-14970.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transparent-staff-icon-hotel-icon-service-icon-5fb0ab15d05fe8.1899349916054136538535.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vecteezy_humans-3d-icon-png-transparent_8492922_983.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vecteezy_3d-illustration-object-icon-calculator_8550123_730.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-miguel-á-padriñán-932263.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-card-payment-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\payment-icon-5655.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngaaa.com-5565829.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-daffa-rayhan-zein-437345.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-antoni-shkraba-6219098.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-antoni-shkraba-628.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-lil-artsy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-lil-a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-markus-spfgiske-214241.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
